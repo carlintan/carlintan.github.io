@@ -1,0 +1,63 @@
+.my-jumbotron-background{
+    background-image: url(img_lights.jpg);
+    background-size: cover;
+    background-position: center;
+    color:white;
+     height:400px;
+}
+.my-body{
+    background-image: url(wallpaper.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.my-thumbnail-background{
+    background-color: rgba(255,255,255,0);
+    border: none;
+  
+}
+.my-panel{
+    background-color: rgba(255,255,255,0);
+    border: none;
+  
+}
+img{
+    border-radius:5px;
+}
+
+.my-li{
+    border: none;
+    
+}
+.mgn-top-20{
+    margin-top: 20px;
+}
+.mgn-top-55{
+    margin-top: 55px;
+}
+.height-400{
+    height:400px;
+}
+hr.style1 { 
+  height: 30px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 1px 0 0 0; 
+  border-radius: 20px; 
+} 
+hr.style1:before { 
+  display: block; 
+  content: ""; 
+  height: 30px; 
+  margin-top: -31px; 
+  border-style: solid; 
+  border-color: black; 
+  border-width: 0 0 1px 0; 
+  border-radius: 20px; 
+}
+hr.style2{
+    border: 1px black solid;
+    border-radius: 10px;
+    padding: 1px;
+  
+}
+
