@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap Walkthrough</title>
+
+    <!-- default bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Crafty+Girls|Julius+Sans+One|Megrim" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+
+
+    <!-- font awesome -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- animate.css -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/animatecss/3.5.2/animate.min.css">
+    <!--custom css style-->
+    <link rel="stylesheet" href="custom.css">
+    <!--use this style for testing and development purposes -->
+    <!--<style type="text/css">-->
+
+
+</head>
+
+
+<body class="my-body">
+
+
+    <!--start of nav bar-->
+    <!-- to disable sticking bar to screen, remove class: navbar-fixed-top -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <!-- hamburger button. do not touch! -->
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+     
+      </button>
+                <a class="navbar-brand" href="index.html">
+                    <!-- PUT BRAND LOGO / ICON HERE (instead of font-awesome -->
+                    <img src="logo.png" alt="logo" height="80px">
+                </a>
+
+                <!-- HOME BUTTON: REPLACE href="#" with your landing page url -->
+
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <!-- THIS UL HANDLES OUR LINKS -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html"><i class="fa fa-home fa-1x"></i>Home</a></li>
+                    <li><a href="about.html"><i class="fa fa-file-text fa-1x"></i>About</a></li>
+                    <li><a href="menu.html"><i class="fa fa-cutlery fa-1x" aria-hidden="true"></i>Menu</a></li>
+                    <li><a href="contact.html"><i class="fa fa-address-book fa-1x" aria-hidden="true"></i>Contact</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--end of nav bar-->
+    <!--main container for entire page-->
+    <div class="container mgn-top-120">
+        <!--row 1 for menu-->
+        <div class="row  ">
+            <div class="col-xs-12 
+                    ">
+                <img src="cafemenu-1.png" alt="menu" width="100%">
+                <img src="cafemenu-2.png" alt="menu" width="100%">
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+        <div class="row mgn-top-20">
+
+            <ul class="list-inline text-center">
+                <li>
+                    <a href="http://facebook.com" target="_blank"><i class="fa fa-facebook fa-3x"></i></a>
+                </li>
+                <li>
+                    <a href="http://snapchat.com" target="_blank"><i class="fa fa-snapchat fa-3x"></i></a>
+                </li>
+                <li><a href="http://twitter.com" target="_blank"><i class="fa fa-twitter fa-3x"></i></a></li>
+            </ul>
+        </div>
+        <!--end of row 6-->
+
+
+    </div>
+    <!--end of container-->
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- jquery -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/3.1.1/jquery.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/wow/1.1.2/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?KEY=AIzaSyDZM6Zl-ea2AJHm3VQjIGptsLgkQKbSmlQ"></script>
+    <script src="maps.js"></script>
+</body>
