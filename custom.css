@@ -33,6 +33,35 @@
 .car-caption-size{
     font-size:50px;
 }
+.my-button{
+    background-color: #F5F5DC;
+    border-width: 2px;
+    border-radius: 15px;
+   box-shadow: 1px 1px 1px brown;
+    color: brown;
+
+}
+.my-button:hover{
+    background-color: brown;
+    
+    color: white;
+    transition-duration: 1s;
+    transition: box-shadow 1s;
+}
+.my-button2{
+    background-color: brown;
+    border-width: 2px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px #F5F5DC;
+    color: white;
+
+}
+.my-button2:hover{
+    background-color: #F5F5DC;
+    
+    color: brown;
+    transition-duration: 1s;
+}
 .my-body{
     background-image: url(wallpaper.jpg);
     background-size: cover;
